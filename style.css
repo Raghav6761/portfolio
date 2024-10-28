@@ -1,0 +1,82 @@
+/* Custom Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* .hero-section {
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+} */
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+}
+
+.btn-primary {
+    background-color: #ff5722;
+    border-color: #ff5722;
+}
+
+/* #portfolio img {
+    height: 400px;
+    object-fit: cover;
+} */
+
+.portfolio-img {
+    height: 400px;
+    object-fit: cover;
+}
+
+#services i {
+    color: #ff5722;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer a:hover {
+    color: #ff5722;
+}
+
+.tech-stack-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-stack-col img{
+    /* margin-top: auto */
+    margin: auto;
+}
+
+.tech-stack-col h5{
+    margin-top: auto;
+}
+
+#technologies {
+    /* background: linear-gradient(135deg, rgba(240, 240, 255, 0.9), rgba(220, 220, 255, 0.9)); */
+    padding: 50px 0;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); */
+}
+
+#technologies .section-title {
+    color: #333;
+}
+
+#technologies .tech-icon {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    margin: 10px;
+}
